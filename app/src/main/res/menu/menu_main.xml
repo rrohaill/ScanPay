@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="rohail.scanpay.Activities.MainActivity">
+
+    <item
+        android:id="@+id/action_todo"
+        android:orderInCategory="100"
+        android:title="@string/todo_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_suggessions"
+        android:orderInCategory="100"
+        android:title="@string/action_suggestions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_history"
+        android:orderInCategory="100"
+        android:title="@string/action_history"
+        app:showAsAction="never" />
+</menu>
